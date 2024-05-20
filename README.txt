@@ -1,4 +1,4 @@
-This patch is a sound replacement for Pokémon cries in Pokémon Colosseum.
+This patch is a sound replacement for Pokémon cries in Pokémon Colosseum (US version).
 It replaces all the cries for Gen 1 and 2 mons to their counterpart from the N64 Pokémon Stadium games.
 Not tested for XD: Gale of Darkness and will definitely not work on Pokémon Battle Revolution.
 
@@ -9,7 +9,7 @@ How to patch:
  2 - Double click the patcher's .EXE file and choose "Apply an UPS patch to a file"
  3 - For the "File to patch", you'll have to provide a ROM of the base Pokémon Colosseum game yourself.
  4 - For the "USP patch", choose the USP patch provide in this folder, then click "Patch". 
- 5 -  After waiting a few seconds, your ROM should now be set to role on Dolphin.
+ 5 - After waiting a few seconds, your ROM should now be set to role on Dolphin.
 
 NOTE: this was not tested to work on ANY Pokémon Colosseum romhacks or otherwise prepatched roms of the game.
 
@@ -25,12 +25,15 @@ the game's sound volume parameter, that's the best result possible. If only this
 in the options, huh...
 
 In the future, I do plan to apply my patch to XD as well and perhaps explore the possibility of doing it
-in PBR. I'm hoping that PBR will have a more generous amount of memory reserved for the cries cuz I also
-had to drop the quality of most files down to 16khz for it fit.
+in PBR. I'm hoping that PBR will be a bit nicer to me with memory and sound resolution cuz I had to drop
+the cries down to 16khz, losing a bit of the original sound's quality to fit in.
 
  ===
 
 Credit:
+
+The work of finding the sounds in the rom and replacing all of them, as well as testing until the game
+plays everything as best as it can, is all done by me, FrankBlack22. (discord: frankblack22)
 
 Tools used include,
  - Nintenlord's USP patcher, of course, to make everything into a patch.
